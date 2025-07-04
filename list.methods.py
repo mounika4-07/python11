@@ -41,3 +41,40 @@ print(mylist5)
 #of a item in alist
 mylist6 = [22,33,33,22,55,32,22,44,67,56,22]
 print(mylist6.count(22))
+"""
+note:it will take almost only one argument
+"""
+#insert:it just inserts the elements into the list 
+#using  the index
+mylist7=[22,33,44,77,88]
+print(mylist7)
+mylist7.insert(1,"hello")
+print(mylist7)
+"""note:in insert method no element is removed.they just replace the position
+"""
+#index--this method tells the position of a element
+#index of firsr accurance of a element
+mylist8=[22,33,44,55,44,66,67,89]
+print(mylist8.index(44))#1
+print(mylist8.index(55))#2
+#reverse--it just reverse the elements
+mylist8.reverse()
+print(mylist8)
+#copy--it just copy the elements in a list
+mylist9=[22,33,44,55,66,77]
+print(mylist9)
+mylist10=mylist9.copy()
+#clear--it just the clear elements in a list
+print(mylist10.clear())
+print(mylist10)
+#sort--it just arranges the element in asorting way
+mylist12=["m","a","k","b","c","s","k","j"]
+mylist12.sort()
+print(mylist12)
+#mylist13=[12,123,"hello"]
+#in built functions
+mylist12=[23,34,56,89]
+print(len(mylist12))
+print(max(mylist12))
+print(min(mylist12))
+print(sum(mylist12))
