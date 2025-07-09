@@ -1,0 +1,10 @@
+mytuple=(12,[12,13],(10,20))
+print(mytuple)
+print( mytuple[1][1])
+print(mytuple[2][1])
+#program:2
+mytuple=(12,13,14,15,(16,17,18),[12,13,15])
+print(mytuple)
+print(mytuple[2])
+print(mytuple[5][0])
+print(mytuple[4][2])
